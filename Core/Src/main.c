@@ -82,7 +82,7 @@ uint32_t counter_encoder = 512;
 
 uint16_t Amplitude_sin = 512;
 
-float Coef_Pow_Sin = 0.95f;
+float Coef_Pow_Sin = 0.95f; //Коэф-т заглушение синусойды (заглушена на 5%)
 
   void Sinys (unsigned int Amplitude_sin)
   {
